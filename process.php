@@ -1,10 +1,10 @@
 
 <?php
-//require 'vendor/autoload.php'; // For PHPMailer
+require 'vendor/autoload.php'; // For PHPMailer
 require 'config.php';         // Contains your API and SMTP credentials
 
-// use PHPMailer\PHPMailer\PHPMailer;
-// use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
 // Handle form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
