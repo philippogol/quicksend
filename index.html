@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G20 Info</title>
+</head>
+<body>
+    <h1>G20 Country Information</h1>
+    <form action="process.php" method="post">
+        <label for="country">Select a G20 Country:</label>
+        <select name="country" id="country">
+            <option value="United States">United States</option>
+            <option value="China">China</option>
+            <option value="India">India</option>
+            <option value="Germany">Germany</option>
+            <!-- Add other G20 countries here -->
+        </select>
+        <button type="submit" name="get_info">Get Info</button>
+        <button type="submit" name="send_email">Send Info via Email</button>
+    </form>
+</body>
+</html>
